@@ -1,2 +1,2 @@
 # Inovacion_Tecnologica
-insere el meme de a trabajar.png
+inserte el meme de a trabajar.png
