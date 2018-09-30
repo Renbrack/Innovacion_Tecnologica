@@ -36,14 +36,14 @@ body {
 
 #html_welcome{
     background-color: #ff8000;
-    display: flex;
+    overflow: hidden;
 }
 #izquierda1{
+    float: left;
     width: 50%;
     height: 100%;
     background-color: #EC6600;
     color: #fff;
-    float: left;
     text-align: center;
     display:table;
 }
@@ -68,23 +68,126 @@ body {
   border:none;
   text-align: center;
 }
-#derecha{
+#derecha1{
+  float: left;
   width: 50%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: #ff8000;
   color: #fff;
-  float: left;
+  display:table;
 }
-
-
+#container2{
+  display:table-cell;
+  vertical-align:middle;
+}
+#imagen1{
+  display: block;
+  margin: auto;
+}
 
 #css_welcome{
     background-color: #005792;
+    overflow: hidden;
 }
+#Izquierda2{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #005792;
+  color: #fff;
+  display:table;
+}
+#container3{
+  display:table-cell;
+  vertical-align:middle;
+}
+#imagen2{
+  display: block;
+  margin: auto;
+}
+#derecha2{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #004E83;
+  color: #fff;
+  text-align: center;
+  display:table;
+}
+#container4{
+  display:table-cell;
+  vertical-align:middle;
+}
+#mainTitle3{
+  color: #FFFFFF;
+  font-size: 72px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+#submainTitle3{
+  color: #FFFFFF;
+  font-size: 21px;
+  font-family: 'Fira Sans', sans-serif;
+}
+#boton2{
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  border-radius: 50px;
+  border:none;
+  text-align: center;
+}
+
 
 #js_welcome{
     background-color: #e6b31e;
+    overflow: hidden;
 }
+#izquierda3{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #CFA11C;
+  color: #fff;
+  text-align: center;
+  display:table;
+}
+#container5{
+  display:table-cell;
+  vertical-align:middle;
+}
+#mainTitle4{
+  color: #FFFFFF;
+  font-size: 72px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+#submainTitle4{
+  color: #FFFFFF;
+  font-size: 21px;
+  font-family: 'Fira Sans', sans-serif;
+}
+#boton3{
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  border-radius: 50px;
+  border:none;
+  text-align: center;
+}
+#derecha3{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #e6b31e;
+  color: #fff;
+  display:table;
+}
+#container6{
+  display:table-cell;
+  vertical-align:middle;
+}
+#imagen3{
+  display: block;
+  margin: auto;
+}
+
 
 #team_welcome{
     background-color: #cacaca;
