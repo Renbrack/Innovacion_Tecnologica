@@ -34,7 +34,6 @@ body {
   width: 50%
 }
 
-
 #html_welcome{
     background-color: #ff8000;
     display: flex;
@@ -66,8 +65,16 @@ body {
   font-size: 18px;
   font-family: 'Hind', sans-serif;
   border-radius: 50px;
+  border:none;
+  text-align: center;
 }
-
+#derecha{
+  width: 50%;
+  height: 100%;
+  background-color: #FFFFFF;
+  color: #fff;
+  float: left;
+}
 
 
 
