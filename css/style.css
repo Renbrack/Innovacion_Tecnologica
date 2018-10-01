@@ -129,32 +129,33 @@ body {
 
 #team_welcome{
     background-color: #cacaca;
-    height: 500px;
+    background-image: url("../img/dinobig.png");
+    background-repeat: no-repeat;
+    height: 720px;
     display: table;
+    color: #000;
 }
-#dinosaurio{
-  width: 50%;
-  height: 100%;
-  float: left;
+#dino{
+  font-size: 72px;
+  font-family: 'Hammersmith One', sans-serif;
 }
+#dinoñah{
+  font-size: 24px;
+  font-family: 'Fira Sans', sans-serif;
+}
+#Dinoboton{
+  width:150px;
+}
+
 #dinoText{
   padding-top: 7%;
+  padding-right: 5%;
   width: 50%;
   height: 100%;
-  float: left;
+  float: right;
   text-align: right;
-}
-#imagenDino{
-  width: 50%;
-  height: 100%;
-  float: left;
-}
-#imgDino{
-  width: 700px;
-  height: 120%;
-  display: block;
-  margin: none;
-  
+  display:table-cell;
+  vertical-align:text-top;
 }
 
 .title {
@@ -214,7 +215,7 @@ footer{
 
 #contact{
     background-color: #fff;
-    height: 520px;
+    height: 600px;
 }
 
 #tomato{
