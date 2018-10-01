@@ -127,6 +127,35 @@ body {
   vertical-align:middle;
 }
 
+#team_welcome{
+    background-color: #cacaca;
+    height: 500px;
+    display: table;
+}
+#dinosaurio{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#dinoText{
+  padding-top: 7%;
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: right;
+}
+#imagenDino{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#imgDino{
+  width: 700px;
+  height: 120%;
+  display: block;
+  margin: none;
+}
+
 .title {
   color: #FFFFFF;
   font-size: 72px;
@@ -180,10 +209,7 @@ footer{
   margin: auto;
 }
 
-#team_welcome{
-    background-color: #cacaca;
-    height: 500px;
-}
+
 
 #contact{
     background-color: #fff;
