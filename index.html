@@ -14,17 +14,19 @@
     <div id="wrapper">
         <div id="main" class="section">
             <div id= "contededor">
-              <span id="mainTitle1">¡Bienvenidos!</span> <br>
+              <span id="mainTitle" class="title">¡Bienvenidos!</span> <br>
               <hr id="Line"> </hr><br>
-              <span id="submainTitle1"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+              <span class="text"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
             </div>
         </div>
         <div id="html_welcome" class="section">
           <div id= "izquierda1" class="subsection">
               <div id ="container">
-                <span id="mainTitle2">HTML5</span>
+                <span class="title">HTML5</span>
                 <br>
-                <span id="submainTitle2"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+                <span class="text"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+                <br>
+                <br>
                 <br>
                 <br>
                 <button id="boton1" class="boton" type="button">Más info</button>
@@ -44,8 +46,10 @@
           </div>
           <div id= "derecha2" class="subsection">
             <div id= "container4">
-              <span id="mainTitle3">CSS3</span><br>
-              <span id="submainTitle3"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+              <span class="title">CSS3</span><br>
+              <span class="text"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+              <br>
+              <br>
               <br>
               <br>
               <button id ="boton2" class="boton" type="button">Más info</button>
@@ -55,25 +59,44 @@
         <div id="js_welcome" class="section">
           <div id="izquierda3" class="subsection">
             <div id = "container5">
-              <span id="mainTitle4">JavaScript</span><br>
-              <span id="submainTitle4"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span><br>
+              <span class="title">JavaScript</span><br>
+              <span class="text"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+              <br>
+              <br>
+              <br>
+              <br>
+
               <button id= "boton3" class="boton" type="button">Más info</button>
             </div>
           </div>
           <div id= "derecha3" class="subsection">
             <div id = "container6">
-              <img id =imagen3 src="img\js.png"></img>
+              <img id ="imagen3" src="img\js.png"></img>
             </div>
           </div>
         </div>
         <div id="team_welcome" class="section">
-            <span id="mainTitle">Bienvenido</span>
-            <span id="submainTitle"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+            <span class="title">Bienvenido</span>
+            <span class="text"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
         </div>
         <div id="contact" class="section">
-            <span id="mainTitle">Bienvenido</span>
-            <span id="submainTitle"> aquí encontrarás información acerca de HTML5, CSS3 y JS</span>
+          <h1 id="contactoTitle">CONTACTO</h1>
+            <div class="subsection2">
+              <p>Nombre:</p>
+              <input type="text" name="nombre">
+              <p>Correo:</p>
+              <input type="email" name="email">  
+            </div>
+            <div class="subsection2">
+              <p>Mensaje:</p>
+              <textarea name="mensajes" cols="40" rows="5"></textarea>
+            </div>
+            
+            <button id="botonContacto" class="boton">Enviar</button>
         </div>
     </div>
+    <footer>
+    
+    </footer>
   </body>
 </html>

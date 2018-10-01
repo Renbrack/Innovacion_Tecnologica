@@ -20,12 +20,6 @@ body {
   vertical-align:middle;
 }
 
-#mainTitle1{
-  color: #FFFFFF;
-  font-size: 96px;
-  font-family: 'Hammersmith One', sans-serif;
-}
-
 #submainTitle1{
   color: #FFFFFF;
   font-size: 24px;
@@ -50,12 +44,6 @@ body {
 #container{
   display:table-cell;
   vertical-align:middle;
-}
-
-#mainTitle2{
-  color: #FFFFFF;
-  font-size: 72px;
-  font-family: 'Hammersmith One', sans-serif;
 }
 
 #submainTitle2{
@@ -115,16 +103,14 @@ body {
   vertical-align:middle;
 }
 
-#mainTitle3{
-  color: #FFFFFF;
-  font-size: 72px;
-  font-family: 'Hammersmith One', sans-serif;
-}
-
 #submainTitle3{
   color: #FFFFFF;
   font-size: 21px;
   font-family: 'Fira Sans', sans-serif;
+}
+#mainTitle{
+
+  font-size: 90px;
 }
 /*
 #boton2{
@@ -150,17 +136,30 @@ body {
   vertical-align:middle;
 }
 
-#mainTitle4{
+.title {
   color: #FFFFFF;
   font-size: 72px;
   font-family: 'Hammersmith One', sans-serif;
 }
 
-#submainTitle4{
+.text{
   color: #FFFFFF;
   font-size: 21px;
   font-family: 'Fira Sans', sans-serif;
+  
 }
+
+.subsection2{
+  display: flex;
+}
+
+footer{
+  background-color: #343434;
+  width: 100%;
+  height: 120px;
+}
+
+
 
 /*
 #boton3{
@@ -194,7 +193,7 @@ body {
   display: block;
   margin: auto;
 }
-s
+
 #team_welcome{
     background-color: #cacaca;
     height: 500px;
@@ -204,3 +203,17 @@ s
     background-color: #fff;
     height: 360px;
 }
+#botonContacto{
+  background-color: #a7d129;
+  color: #fff;
+}
+
+#contactoTitle{
+  font-family: 'Hammersmith One',sans-serif;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 58px;
+  color: #343434;
+}
+
