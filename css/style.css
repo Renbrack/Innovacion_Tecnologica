@@ -315,4 +315,5 @@ input, textarea{
     border-radius:7px;
     color: #333;
     padding-left: 2%;
+    resize: none;
 }
