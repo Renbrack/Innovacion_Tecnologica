@@ -38,7 +38,7 @@ body {
 }
 
 #izquierda1{
-    background-color: #EC6600;    
+    background-color: #EC6600;
 }
 
 #container{
@@ -119,7 +119,7 @@ body {
 }
 
 #izquierda3{
-  background-color: #CFA11C;  
+  background-color: #CFA11C;
 }
 
 #container5{
@@ -141,7 +141,7 @@ body {
 }
 
 .subsection2{
-  display: flex;
+  display: block;
 }
 
 footer{
@@ -187,11 +187,37 @@ footer{
 
 #contact{
     background-color: #fff;
-    height: 360px;
+    height: 520px;
+}
+
+#tomato{
+    display: flex;
+    padding: 0% 10% 2% 10%;
+}
+
+#left, #right{
+    display: left;
+    width: 50%;
+    height: 100%;
+    margin:0;
+}
+
+#left{
+    padding-left: 15%;
+}
+#right{
+    padding-right: 5%;
 }
 #botonContacto{
   background-color: #a7d129;
   color: #fff;
+  outline: none;
+}
+
+#footContacto{
+    padding-left: 46%;
+    padding-right: 50%;
+    padding-top: 3%;
 }
 
 #contactoTitle{
@@ -214,22 +240,21 @@ ul {
     background-color: #222;
     /* si lo queremos sticky */
     /*
-    position: sticky; 
+    position: sticky;
     top: 0;
     */
-    
+
     /* si lo queremos sticky */
 }
 
-
-
-
 li {
     float: right;
+    font-family: 'Hind',sans-serif;
 }
 
 #mau{ /*esta porqueria funcionó*/
-    float: left;  
+    float: left;
+    padding-top: 6px;
 }
 
 li a, .dropbtn {
@@ -241,7 +266,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #111;
 }
 
 li.dropdown {
@@ -275,3 +300,19 @@ li.dropdown {
 
 /* info del navbar copiado */
 
+p{
+    font-family: 'Hammersmith One',sans-serif;
+    font color: #343434;
+    font-size: 16px;
+
+}
+
+input, textarea{
+    background-color: #ece8d9   ;
+    border: 0;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    border-radius:7px;
+    color: #333;
+    padding-left: 2%;
+}
