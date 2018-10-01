@@ -112,15 +112,6 @@ body {
 
   font-size: 90px;
 }
-/*
-#boton2{
-  font-size: 18px;
-  font-family: 'Hind', sans-serif;
-  border-radius: 50px;
-  border:none;
-  text-align: center;
-}
-*/
 
 #js_welcome{
     background-color: #e6b31e;
@@ -159,18 +150,6 @@ footer{
   height: 120px;
 }
 
-
-
-/*
-#boton3{
-  font-size: 18px;
-  font-family: 'Hind', sans-serif;
-  border-radius: 50px;
-  border:none;
-  text-align: center;
-}
-*/
-
 .boton
 {
   font-size: 18px;
@@ -180,6 +159,13 @@ footer{
   text-align: center;
   background-color: #FFF;
   padding: 8px 25px 8px 25px;
+}
+
+.boton:hover,
+.boton:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }
 
 #derecha3{
