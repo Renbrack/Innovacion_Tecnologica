@@ -145,6 +145,7 @@ body {
 }
 #Dinoboton{
   width:150px;
+  
 }
 
 #dinoText{
@@ -190,6 +191,7 @@ footer{
   text-align: center;
   background-color: #FFF;
   padding: 8px 25px 8px 25px;
+
 }
 
 .boton:hover,
@@ -239,7 +241,6 @@ footer{
 #botonContacto{
   background-color: #a7d129;
   color: #fff;
-  outline: none;
 }
 
 #footContacto{
