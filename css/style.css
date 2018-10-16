@@ -358,3 +358,41 @@ input, textarea{
     padding-left: 2%;
     resize: none;
 }
+
+h2{
+    font-size:32px;
+    font-family: 'Hammersmith One',sans-serif;
+    color: #343434;
+}
+
+.member{
+    padding-left: 25%;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #efefef;
+}
+.member > div {
+    display: block;
+    padding-left: 50px;
+}
+
+.member > div > p {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.member > div > a {
+    font-size: 16px;
+    font-family: 'Hind',sans-serif;
+    text-decoration:none;
+    color: #343434;
+
+}
+
+#javico_member{
+    /*padding-top: 70px;*/
+}
+#teampage {
+    height: 860px;
+}
