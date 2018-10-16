@@ -11,6 +11,6 @@
 
 ~~Si, 'Innovacion' lleva dos 'n', pero la dislexia de un integrante del equipo ocasionó que lo escribieramos mal, lamentamos las molestias.~~
 
-GitHub Pages: https://renbrack.github.io/Inovacion_Tecnologica/
+GitHub Pages: https://renbrack.github.io/Innovacion_Tecnologica/
 
 
